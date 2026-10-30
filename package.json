@@ -1,0 +1,15 @@
+{
+  "name": "penney",
+  "version": "1.0.0",
+  "description": "O jogo de Penney varrido em Node puro: a formula de Conway conferida contra a cadeia de Markov resolvida em fracao exata.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
